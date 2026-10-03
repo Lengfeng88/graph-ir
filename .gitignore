@@ -1,3 +1,22 @@
 venv/
 __pycache__/
 *.pyc
+
+# compiled CUDA test binaries (keep only .cu source)
+attention_naive
+attention_naive_v*
+matmul_*
+!matmul_*.cu
+flash_attention
+flash_attention_v*
+!flash_attention*.cu
+wmma_*
+!wmma_*.cu
+check_smem
+
+# vendored/reference source tree, not part of this project
+llvm-project/
+
+# generated pass visualization output
+out/
+*.bak
