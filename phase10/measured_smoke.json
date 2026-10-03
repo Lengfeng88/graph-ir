@@ -1,0 +1,95 @@
+[
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 1,
+      "head_dim": 64,
+      "q_len": 128,
+      "kv_len": 128,
+      "causal": true
+    },
+    "measured_ms": {
+      "dense": 0.06867886334657669,
+      "flash": 0.01201416365802288
+    }
+  },
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 128,
+      "kv_len": 128,
+      "causal": true
+    },
+    "measured_ms": {
+      "dense": 0.07001037150621414,
+      "flash": 0.011498353444039822
+    }
+  },
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 32,
+      "head_dim": 64,
+      "q_len": 128,
+      "kv_len": 128,
+      "causal": true
+    },
+    "measured_ms": {
+      "dense": 0.09690815210342407,
+      "flash": 0.01737668551504612
+    }
+  },
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 2048,
+      "kv_len": 2048,
+      "causal": true,
+      "sparse_density": 0.02,
+      "allow_approx": true
+    },
+    "measured_ms": {
+      "dense": 4.744146347045898,
+      "flash": 0.16093379259109497,
+      "sparse": 0.03029146045446396
+    }
+  },
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 2048,
+      "kv_len": 2048,
+      "causal": true,
+      "sparse_density": 0.05,
+      "allow_approx": true
+    },
+    "measured_ms": {
+      "dense": 4.573078632354736,
+      "flash": 0.16419896483421326,
+      "sparse": 0.030898256227374077
+    }
+  },
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 2048,
+      "kv_len": 2048,
+      "causal": true,
+      "sparse_density": 0.1,
+      "allow_approx": true
+    },
+    "measured_ms": {
+      "dense": 4.556561470031738,
+      "flash": 0.16211728751659393,
+      "sparse": 0.035836368799209595
+    }
+  }
+]
