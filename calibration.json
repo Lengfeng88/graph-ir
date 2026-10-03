@@ -1,0 +1,43 @@
+{
+  "hardware": {
+    "flops_fp16": 45.82048230779133,
+    "hbm_bandwidth": 337.64435147182206,
+    "hbm_gb": 12.453019648,
+    "num_sms": 58,
+    "l2_mb": 50.331648
+  },
+  "candidates": {
+    "dense": {
+      "prefill": {
+        "eff": 0.2625,
+        "launch_us": 43.63
+      },
+      "decode": {
+        "eff": 0.1691,
+        "launch_us": 74.39
+      }
+    },
+    "flash": {
+      "prefill": {
+        "eff": 0.9301,
+        "launch_us": 11.28
+      },
+      "decode": {
+        "eff": 0.8533,
+        "launch_us": 89.32
+      }
+    },
+    "paged": {
+      "decode": {
+        "eff": 0.9792,
+        "launch_us": 19.08
+      }
+    },
+    "sparse": {
+      "prefill": {
+        "eff": 1.2286,
+        "launch_us": 51.48
+      }
+    }
+  }
+}

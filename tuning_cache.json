@@ -1,0 +1,18 @@
+{
+  "flash|B4|H8|D64|N4096|causalTrue|fp16": {
+    "config": {
+      "block_m": 128,
+      "block_n": 64,
+      "num_warps": 4,
+      "num_stages": 2
+    },
+    "latency_ms": 1.6058138608932495,
+    "verified": true,
+    "samples_ms": [
+      1.5747663974761963,
+      1.6058138608932495,
+      1.6128355264663696
+    ],
+    "tuned_at": 1790738477.5986283
+  }
+}
