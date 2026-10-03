@@ -20,3 +20,4 @@ llvm-project/
 # generated pass visualization output
 out/
 *.bak
+kernels/triton/
