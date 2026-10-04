@@ -1,0 +1,2021 @@
+[
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 1,
+      "head_dim": 64,
+      "q_len": 128,
+      "kv_len": 128,
+      "causal": true
+    },
+    "predicted_candidate": "flash",
+    "predicted_latency_ms": 0.005423271451002922,
+    "calibrated": true,
+    "all_candidates": [
+      {
+        "candidate": "dense",
+        "latency_ms": 0.045470974289343484,
+        "feasible": true
+      },
+      {
+        "candidate": "flash",
+        "latency_ms": 0.005423271451002922,
+        "feasible": true
+      },
+      {
+        "candidate": "sparse",
+        "latency_ms": 0.008897589768256223,
+        "feasible": false
+      },
+      {
+        "candidate": "paged",
+        "latency_ms": 0.008529089313753653,
+        "feasible": false
+      }
+    ]
+  },
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 128,
+      "kv_len": 128,
+      "causal": true
+    },
+    "predicted_candidate": "flash",
+    "predicted_latency_ms": 0.008386171608023385,
+    "calibrated": true,
+    "all_candidates": [
+      {
+        "candidate": "dense",
+        "latency_ms": 0.08383779431474785,
+        "feasible": true
+      },
+      {
+        "candidate": "flash",
+        "latency_ms": 0.008386171608023385,
+        "feasible": true
+      },
+      {
+        "candidate": "sparse",
+        "latency_ms": 0.010490718146049781,
+        "feasible": false
+      },
+      {
+        "candidate": "paged",
+        "latency_ms": 0.01223271451002923,
+        "feasible": false
+      }
+    ]
+  },
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 32,
+      "head_dim": 64,
+      "q_len": 128,
+      "kv_len": 128,
+      "causal": true
+    },
+    "predicted_candidate": "flash",
+    "predicted_latency_ms": 0.018544686432093536,
+    "calibrated": true,
+    "all_candidates": [
+      {
+        "candidate": "dense",
+        "latency_ms": 0.2153811772589914,
+        "feasible": true
+      },
+      {
+        "candidate": "flash",
+        "latency_ms": 0.018544686432093536,
+        "feasible": true
+      },
+      {
+        "candidate": "sparse",
+        "latency_ms": 0.01595287258419913,
+        "feasible": false
+      },
+      {
+        "candidate": "paged",
+        "latency_ms": 0.024930858040116917,
+        "feasible": false
+      }
+    ]
+  },
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 1,
+      "head_dim": 64,
+      "q_len": 512,
+      "kv_len": 512,
+      "causal": true
+    },
+    "predicted_candidate": "flash",
+    "predicted_latency_ms": 0.007599400082317515,
+    "calibrated": true,
+    "all_candidates": [
+      {
+        "candidate": "dense",
+        "latency_ms": 0.11124266576146526,
+        "feasible": true
+      },
+      {
+        "candidate": "flash",
+        "latency_ms": 0.007599400082317515,
+        "feasible": true
+      },
+      {
+        "candidate": "sparse",
+        "latency_ms": 0.010067677213849616,
+        "feasible": false
+      },
+      {
+        "candidate": "paged",
+        "latency_ms": 0.011249250102896895,
+        "feasible": false
+      }
+    ]
+  },
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 512,
+      "kv_len": 512,
+      "causal": true
+    },
+    "predicted_candidate": "flash",
+    "predicted_latency_ms": 0.025795200658540126,
+    "calibrated": true,
+    "all_candidates": [
+      {
+        "candidate": "dense",
+        "latency_ms": 0.6100113260917222,
+        "feasible": true
+      },
+      {
+        "candidate": "flash",
+        "latency_ms": 0.025795200658540126,
+        "feasible": true
+      },
+      {
+        "candidate": "sparse",
+        "latency_ms": 0.01985141771079693,
+        "feasible": false
+      },
+      {
+        "candidate": "paged",
+        "latency_ms": 0.03399400082317516,
+        "feasible": false
+      }
+    ]
+  },
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 32,
+      "head_dim": 64,
+      "q_len": 512,
+      "kv_len": 512,
+      "causal": true
+    },
+    "predicted_candidate": "flash",
+    "predicted_latency_ms": 0.11321676744186941,
+    "calibrated": true,
+    "all_candidates": [
+      {
+        "candidate": "dense",
+        "latency_ms": 2.3200753043668882,
+        "feasible": true
+      },
+      {
+        "candidate": "flash",
+        "latency_ms": 0.11321676744186941,
+        "feasible": true
+      },
+      {
+        "candidate": "sparse",
+        "latency_ms": 0.06685731446492603,
+        "feasible": false
+      },
+      {
+        "candidate": "paged",
+        "latency_ms": 0.14327095930233677,
+        "feasible": false
+      }
+    ]
+  },
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 1,
+      "head_dim": 64,
+      "q_len": 2048,
+      "kv_len": 2048,
+      "causal": true
+    },
+    "predicted_candidate": "flash",
+    "predicted_latency_ms": 0.046529596636792125,
+    "calibrated": true,
+    "all_candidates": [
+      {
+        "candidate": "dense",
+        "latency_ms": 1.1142609607113225,
+        "feasible": true
+      },
+      {
+        "candidate": "flash",
+        "latency_ms": 0.046529596636792125,
+        "feasible": true
+      },
+      {
+        "candidate": "sparse",
+        "latency_ms": 0.03100014121776112,
+        "feasible": false
+      },
+      {
+        "candidate": "paged",
+        "latency_ms": 0.05991199579599015,
+        "feasible": false
+      }
+    ]
+  },
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 2048,
+      "kv_len": 2048,
+      "causal": true
+    },
+    "predicted_candidate": "flash",
+    "predicted_latency_ms": 0.33723677309433703,
+    "calibrated": true,
+    "all_candidates": [
+      {
+        "candidate": "dense",
+        "latency_ms": 8.63415768569058,
+        "feasible": true
+      },
+      {
+        "candidate": "flash",
+        "latency_ms": 0.33723677309433703,
+        "feasible": true
+      },
+      {
+        "candidate": "sparse",
+        "latency_ms": 0.18731112974208897,
+        "feasible": false
+      },
+      {
+        "candidate": "paged",
+        "latency_ms": 0.4232959663679212,
+        "feasible": false
+      }
+    ]
+  },
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 32,
+      "head_dim": 64,
+      "q_len": 2048,
+      "kv_len": 2048,
+      "causal": true
+    },
+    "predicted_candidate": "flash",
+    "predicted_latency_ms": 1.333947092377348,
+    "calibrated": true,
+    "all_candidates": [
+      {
+        "candidate": "dense",
+        "latency_ms": 34.41666074276232,
+        "feasible": true
+      },
+      {
+        "candidate": "flash",
+        "latency_ms": 1.333947092377348,
+        "feasible": true
+      },
+      {
+        "candidate": "sparse",
+        "latency_ms": 0.7232345189683558,
+        "feasible": false
+      },
+      {
+        "candidate": "paged",
+        "latency_ms": 1.6691838654716848,
+        "feasible": false
+      }
+    ]
+  },
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 1,
+      "head_dim": 64,
+      "q_len": 8192,
+      "kv_len": 8192,
+      "causal": true
+    },
+    "predicted_candidate": "flash",
+    "predicted_latency_ms": 0.6692303274675214,
+    "calibrated": true,
+    "all_candidates": [
+      {
+        "candidate": "dense",
+        "latency_ms": 16.96523860549267,
+        "feasible": true
+      },
+      {
+        "candidate": "flash",
+        "latency_ms": 0.6692303274675214,
+        "feasible": true
+      },
+      {
+        "candidate": "sparse",
+        "latency_ms": 0.3658214826688469,
+        "feasible": false
+      },
+      {
+        "candidate": "paged",
+        "latency_ms": 0.8382879093344018,
+        "feasible": false
+      }
+    ]
+  },
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 8192,
+      "kv_len": 8192,
+      "causal": true
+    },
+    "predicted_candidate": "flash",
+    "predicted_latency_ms": 5.318842619740171,
+    "calibrated": true,
+    "all_candidates": [
+      {
+        "candidate": "dense",
+        "latency_ms": 135.44197884394134,
+        "feasible": true
+      },
+      {
+        "candidate": "flash",
+        "latency_ms": 5.318842619740171,
+        "feasible": true
+      },
+      {
+        "candidate": "sparse",
+        "latency_ms": 2.865881861350775,
+        "feasible": false
+      },
+      {
+        "candidate": "paged",
+        "latency_ms": 6.650303274675214,
+        "feasible": false
+      }
+    ]
+  },
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 32,
+      "head_dim": 64,
+      "q_len": 8192,
+      "kv_len": 8192,
+      "causal": true
+    },
+    "predicted_candidate": "flash",
+    "predicted_latency_ms": 21.260370478960688,
+    "calibrated": true,
+    "all_candidates": [
+      {
+        "candidate": "dense",
+        "latency_ms": 541.6479453757654,
+        "feasible": true
+      },
+      {
+        "candidate": "flash",
+        "latency_ms": 21.260370478960688,
+        "feasible": true
+      },
+      {
+        "candidate": "sparse",
+        "latency_ms": 11.4375174454031,
+        "feasible": false
+      },
+      {
+        "candidate": "paged",
+        "latency_ms": 26.57721309870086,
+        "feasible": false
+      }
+    ]
+  },
+  {
+    "shape": {
+      "batch": 4,
+      "num_heads": 1,
+      "head_dim": 64,
+      "q_len": 128,
+      "kv_len": 128,
+      "causal": true
+    },
+    "predicted_candidate": "flash",
+    "predicted_latency_ms": 0.006693085804011692,
+    "calibrated": true,
+    "all_candidates": [
+      {
+        "candidate": "dense",
+        "latency_ms": 0.06191389715737392,
+        "feasible": true
+      },
+      {
+        "candidate": "flash",
+        "latency_ms": 0.006693085804011692,
+        "feasible": true
+      },
+      {
+        "candidate": "sparse",
+        "latency_ms": 0.00958035907302489,
+        "feasible": false
+      },
+      {
+        "candidate": "paged",
+        "latency_ms": 0.010116357255014615,
+        "feasible": false
+      }
+    ]
+  },
+  {
+    "shape": {
+      "batch": 4,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 128,
+      "kv_len": 128,
+      "causal": true
+    },
+    "predicted_candidate": "flash",
+    "predicted_latency_ms": 0.018544686432093536,
+    "calibrated": true,
+    "all_candidates": [
+      {
+        "candidate": "dense",
+        "latency_ms": 0.2153811772589914,
+        "feasible": true
+      },
+      {
+        "candidate": "flash",
+        "latency_ms": 0.018544686432093536,
+        "feasible": true
+      },
+      {
+        "candidate": "sparse",
+        "latency_ms": 0.01595287258419913,
+        "feasible": false
+      },
+      {
+        "candidate": "paged",
+        "latency_ms": 0.024930858040116917,
+        "feasible": false
+      }
+    ]
+  },
+  {
+    "shape": {
+      "batch": 4,
+      "num_heads": 32,
+      "head_dim": 64,
+      "q_len": 128,
+      "kv_len": 128,
+      "causal": true
+    },
+    "predicted_candidate": "flash",
+    "predicted_latency_ms": 0.05917874572837415,
+    "calibrated": true,
+    "all_candidates": [
+      {
+        "candidate": "dense",
+        "latency_ms": 0.7415547090359655,
+        "feasible": true
+      },
+      {
+        "candidate": "flash",
+        "latency_ms": 0.05917874572837415,
+        "feasible": true
+      },
+      {
+        "candidate": "sparse",
+        "latency_ms": 0.037801490336796514,
+        "feasible": false
+      },
+      {
+        "candidate": "paged",
+        "latency_ms": 0.07572343216046769,
+        "feasible": false
+      }
+    ]
+  },
+  {
+    "shape": {
+      "batch": 4,
+      "num_heads": 1,
+      "head_dim": 64,
+      "q_len": 512,
+      "kv_len": 512,
+      "causal": true
+    },
+    "predicted_candidate": "flash",
+    "predicted_latency_ms": 0.015397600329270062,
+    "calibrated": true,
+    "all_candidates": [
+      {
+        "candidate": "dense",
+        "latency_ms": 0.32500066304586106,
+        "feasible": true
+      },
+      {
+        "candidate": "flash",
+        "latency_ms": 0.015397600329270062,
+        "feasible": true
+      },
+      {
+        "candidate": "sparse",
+        "latency_ms": 0.014260708855398464,
+        "feasible": false
+      },
+      {
+        "candidate": "paged",
+        "latency_ms": 0.02099700041158758,
+        "feasible": false
+      }
+    ]
+  },
+  {
+    "shape": {
+      "batch": 4,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 512,
+      "kv_len": 512,
+      "causal": true
+    },
+    "predicted_candidate": "flash",
+    "predicted_latency_ms": 0.11321676744186941,
+    "calibrated": true,
+    "all_candidates": [
+      {
+        "candidate": "dense",
+        "latency_ms": 2.3200753043668882,
+        "feasible": true
+      },
+      {
+        "candidate": "flash",
+        "latency_ms": 0.11321676744186941,
+        "feasible": true
+      },
+      {
+        "candidate": "sparse",
+        "latency_ms": 0.06685731446492603,
+        "feasible": false
+      },
+      {
+        "candidate": "paged",
+        "latency_ms": 0.14327095930233677,
+        "feasible": false
+      }
+    ]
+  },
+  {
+    "shape": {
+      "batch": 4,
+      "num_heads": 32,
+      "head_dim": 64,
+      "q_len": 512,
+      "kv_len": 512,
+      "causal": true
+    },
+    "predicted_candidate": "flash",
+    "predicted_latency_ms": 0.43786706976747763,
+    "calibrated": true,
+    "all_candidates": [
+      {
+        "candidate": "dense",
+        "latency_ms": 9.160331217467553,
+        "feasible": true
+      },
+      {
+        "candidate": "flash",
+        "latency_ms": 0.43786706976747763,
+        "feasible": true
+      },
+      {
+        "candidate": "sparse",
+        "latency_ms": 0.24141925785970408,
+        "feasible": false
+      },
+      {
+        "candidate": "paged",
+        "latency_ms": 0.549083837209347,
+        "feasible": false
+      }
+    ]
+  },
+  {
+    "shape": {
+      "batch": 4,
+      "num_heads": 1,
+      "head_dim": 64,
+      "q_len": 2048,
+      "kv_len": 2048,
+      "causal": true
+    },
+    "predicted_candidate": "flash",
+    "predicted_latency_ms": 0.17111838654716852,
+    "calibrated": true,
+    "all_candidates": [
+      {
+        "candidate": "dense",
+        "latency_ms": 4.337073842845291,
+        "feasible": true
+      },
+      {
+        "candidate": "flash",
+        "latency_ms": 0.17111838654716852,
+        "feasible": true
+      },
+      {
+        "candidate": "sparse",
+        "latency_ms": 0.09799056487104447,
+        "feasible": false
+      },
+      {
+        "candidate": "paged",
+        "latency_ms": 0.2156479831839606,
+        "feasible": false
+      }
+    ]
+  },
+  {
+    "shape": {
+      "batch": 4,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 2048,
+      "kv_len": 2048,
+      "causal": true
+    },
+    "predicted_candidate": "flash",
+    "predicted_latency_ms": 1.333947092377348,
+    "calibrated": true,
+    "all_candidates": [
+      {
+        "candidate": "dense",
+        "latency_ms": 34.41666074276232,
+        "feasible": true
+      },
+      {
+        "candidate": "flash",
+        "latency_ms": 1.333947092377348,
+        "feasible": true
+      },
+      {
+        "candidate": "sparse",
+        "latency_ms": 0.7232345189683558,
+        "feasible": false
+      },
+      {
+        "candidate": "paged",
+        "latency_ms": 1.6691838654716848,
+        "feasible": false
+      }
+    ]
+  },
+  {
+    "shape": {
+      "batch": 4,
+      "num_heads": 32,
+      "head_dim": 64,
+      "q_len": 2048,
+      "kv_len": 2048,
+      "causal": true
+    },
+    "predicted_candidate": "flash",
+    "predicted_latency_ms": 5.320788369509391,
+    "calibrated": true,
+    "all_candidates": [
+      {
+        "candidate": "dense",
+        "latency_ms": 137.54667297104928,
+        "feasible": true
+      },
+      {
+        "candidate": "flash",
+        "latency_ms": 5.320788369509391,
+        "feasible": true
+      },
+      {
+        "candidate": "sparse",
+        "latency_ms": 2.8669280758734232,
+        "feasible": false
+      },
+      {
+        "candidate": "paged",
+        "latency_ms": 6.652735461886739,
+        "feasible": false
+      }
+    ]
+  },
+  {
+    "shape": {
+      "batch": 4,
+      "num_heads": 1,
+      "head_dim": 64,
+      "q_len": 8192,
+      "kv_len": 8192,
+      "causal": true
+    },
+    "predicted_candidate": "flash",
+    "predicted_latency_ms": 2.6619213098700856,
+    "calibrated": true,
+    "all_candidates": [
+      {
+        "candidate": "dense",
+        "latency_ms": 67.74098442197068,
+        "feasible": true
+      },
+      {
+        "candidate": "flash",
+        "latency_ms": 2.6619213098700856,
+        "feasible": true
+      },
+      {
+        "candidate": "sparse",
+        "latency_ms": 1.4372759306753875,
+        "feasible": false
+      },
+      {
+        "candidate": "paged",
+        "latency_ms": 3.3291516373376075,
+        "feasible": false
+      }
+    ]
+  },
+  {
+    "shape": {
+      "batch": 4,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 8192,
+      "kv_len": 8192,
+      "causal": true
+    },
+    "predicted_candidate": "flash",
+    "predicted_latency_ms": 21.260370478960688,
+    "calibrated": true,
+    "all_candidates": [
+      {
+        "candidate": "dense",
+        "latency_ms": 541.6479453757654,
+        "feasible": true
+      },
+      {
+        "candidate": "flash",
+        "latency_ms": 21.260370478960688,
+        "feasible": true
+      },
+      {
+        "candidate": "sparse",
+        "latency_ms": 11.4375174454031,
+        "feasible": false
+      },
+      {
+        "candidate": "paged",
+        "latency_ms": 26.57721309870086,
+        "feasible": false
+      }
+    ]
+  },
+  {
+    "shape": {
+      "batch": 4,
+      "num_heads": 32,
+      "head_dim": 64,
+      "q_len": 8192,
+      "kv_len": 8192,
+      "causal": true
+    },
+    "predicted_candidate": "flash",
+    "predicted_latency_ms": 85.02648191584275,
+    "calibrated": true,
+    "all_candidates": [
+      {
+        "candidate": "dense",
+        "latency_ms": 2166.471811503062,
+        "feasible": true
+      },
+      {
+        "candidate": "flash",
+        "latency_ms": 85.02648191584275,
+        "feasible": true
+      },
+      {
+        "candidate": "sparse",
+        "latency_ms": 45.724059781612404,
+        "feasible": false
+      },
+      {
+        "candidate": "paged",
+        "latency_ms": 106.28485239480342,
+        "feasible": false
+      }
+    ]
+  },
+  {
+    "shape": {
+      "batch": 16,
+      "num_heads": 1,
+      "head_dim": 64,
+      "q_len": 128,
+      "kv_len": 128,
+      "causal": true
+    },
+    "predicted_candidate": "flash",
+    "predicted_latency_ms": 0.011772343216046768,
+    "calibrated": true,
+    "all_candidates": [
+      {
+        "candidate": "dense",
+        "latency_ms": 0.1276855886294957,
+        "feasible": true
+      },
+      {
+        "candidate": "flash",
+        "latency_ms": 0.011772343216046768,
+        "feasible": true
+      },
+      {
+        "candidate": "sparse",
+        "latency_ms": 0.012311436292099564,
+        "feasible": false
+      },
+      {
+        "candidate": "paged",
+        "latency_ms": 0.01646542902005846,
+        "feasible": false
+      }
+    ]
+  },
+  {
+    "shape": {
+      "batch": 16,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 128,
+      "kv_len": 128,
+      "causal": true
+    },
+    "predicted_candidate": "flash",
+    "predicted_latency_ms": 0.05917874572837415,
+    "calibrated": true,
+    "all_candidates": [
+      {
+        "candidate": "dense",
+        "latency_ms": 0.7415547090359655,
+        "feasible": true
+      },
+      {
+        "candidate": "flash",
+        "latency_ms": 0.05917874572837415,
+        "feasible": true
+      },
+      {
+        "candidate": "sparse",
+        "latency_ms": 0.037801490336796514,
+        "feasible": false
+      },
+      {
+        "candidate": "paged",
+        "latency_ms": 0.07572343216046769,
+        "feasible": false
+      }
+    ]
+  },
+  {
+    "shape": {
+      "batch": 16,
+      "num_heads": 32,
+      "head_dim": 64,
+      "q_len": 128,
+      "kv_len": 128,
+      "causal": true
+    },
+    "predicted_candidate": "flash",
+    "predicted_latency_ms": 0.22171498291349662,
+    "calibrated": true,
+    "all_candidates": [
+      {
+        "candidate": "dense",
+        "latency_ms": 2.8462488361438627,
+        "feasible": true
+      },
+      {
+        "candidate": "flash",
+        "latency_ms": 0.22171498291349662,
+        "feasible": true
+      },
+      {
+        "candidate": "sparse",
+        "latency_ms": 0.12519596134718605,
+        "feasible": false
+      },
+      {
+        "candidate": "paged",
+        "latency_ms": 0.2788937286418707,
+        "feasible": false
+      }
+    ]
+  },
+  {
+    "shape": {
+      "batch": 16,
+      "num_heads": 1,
+      "head_dim": 64,
+      "q_len": 512,
+      "kv_len": 512,
+      "causal": true
+    },
+    "predicted_candidate": "flash",
+    "predicted_latency_ms": 0.046590401317080254,
+    "calibrated": true,
+    "all_candidates": [
+      {
+        "candidate": "dense",
+        "latency_ms": 1.180032652183444,
+        "feasible": true
+      },
+      {
+        "candidate": "flash",
+        "latency_ms": 0.046590401317080254,
+        "feasible": true
+      },
+      {
+        "candidate": "sparse",
+        "latency_ms": 0.03103283542159386,
+        "feasible": false
+      },
+      {
+        "candidate": "paged",
+        "latency_ms": 0.05998800164635031,
+        "feasible": false
+      }
+    ]
+  },
+  {
+    "shape": {
+      "batch": 16,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 512,
+      "kv_len": 512,
+      "causal": true
+    },
+    "predicted_candidate": "flash",
+    "predicted_latency_ms": 0.43786706976747763,
+    "calibrated": true,
+    "all_candidates": [
+      {
+        "candidate": "dense",
+        "latency_ms": 9.160331217467553,
+        "feasible": true
+      },
+      {
+        "candidate": "flash",
+        "latency_ms": 0.43786706976747763,
+        "feasible": true
+      },
+      {
+        "candidate": "sparse",
+        "latency_ms": 0.24141925785970408,
+        "feasible": false
+      },
+      {
+        "candidate": "paged",
+        "latency_ms": 0.549083837209347,
+        "feasible": false
+      }
+    ]
+  },
+  {
+    "shape": {
+      "batch": 16,
+      "num_heads": 32,
+      "head_dim": 64,
+      "q_len": 512,
+      "kv_len": 512,
+      "causal": true
+    },
+    "predicted_candidate": "flash",
+    "predicted_latency_ms": 1.7364682790699106,
+    "calibrated": true,
+    "all_candidates": [
+      {
+        "candidate": "dense",
+        "latency_ms": 36.52135486987021,
+        "feasible": true
+      },
+      {
+        "candidate": "flash",
+        "latency_ms": 1.7364682790699106,
+        "feasible": true
+      },
+      {
+        "candidate": "sparse",
+        "latency_ms": 0.9396670314388164,
+        "feasible": false
+      },
+      {
+        "candidate": "paged",
+        "latency_ms": 2.172335348837388,
+        "feasible": false
+      }
+    ]
+  },
+  {
+    "shape": {
+      "batch": 16,
+      "num_heads": 1,
+      "head_dim": 64,
+      "q_len": 2048,
+      "kv_len": 2048,
+      "causal": true
+    },
+    "predicted_candidate": "flash",
+    "predicted_latency_ms": 0.669473546188674,
+    "calibrated": true,
+    "all_candidates": [
+      {
+        "candidate": "dense",
+        "latency_ms": 17.22832537138116,
+        "feasible": true
+      },
+      {
+        "candidate": "flash",
+        "latency_ms": 0.669473546188674,
+        "feasible": true
+      },
+      {
+        "candidate": "sparse",
+        "latency_ms": 0.3659522594841779,
+        "feasible": false
+      },
+      {
+        "candidate": "paged",
+        "latency_ms": 0.8385919327358424,
+        "feasible": false
+      }
+    ]
+  },
+  {
+    "shape": {
+      "batch": 16,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 2048,
+      "kv_len": 2048,
+      "causal": true
+    },
+    "predicted_candidate": "flash",
+    "predicted_latency_ms": 5.320788369509391,
+    "calibrated": true,
+    "all_candidates": [
+      {
+        "candidate": "dense",
+        "latency_ms": 137.54667297104928,
+        "feasible": true
+      },
+      {
+        "candidate": "flash",
+        "latency_ms": 5.320788369509391,
+        "feasible": true
+      },
+      {
+        "candidate": "sparse",
+        "latency_ms": 2.8669280758734232,
+        "feasible": false
+      },
+      {
+        "candidate": "paged",
+        "latency_ms": 6.652735461886739,
+        "feasible": false
+      }
+    ]
+  },
+  {
+    "shape": {
+      "batch": 16,
+      "num_heads": 32,
+      "head_dim": 64,
+      "q_len": 2048,
+      "kv_len": 2048,
+      "causal": true
+    },
+    "predicted_candidate": "flash",
+    "predicted_latency_ms": 21.26815347803757,
+    "calibrated": true,
+    "all_candidates": [
+      {
+        "candidate": "dense",
+        "latency_ms": 550.0667218841971,
+        "feasible": true
+      },
+      {
+        "candidate": "flash",
+        "latency_ms": 21.26815347803757,
+        "feasible": true
+      },
+      {
+        "candidate": "sparse",
+        "latency_ms": 11.441702303493694,
+        "feasible": false
+      },
+      {
+        "candidate": "paged",
+        "latency_ms": 26.58694184754696,
+        "feasible": false
+      }
+    ]
+  },
+  {
+    "shape": {
+      "batch": 16,
+      "num_heads": 1,
+      "head_dim": 64,
+      "q_len": 8192,
+      "kv_len": 8192,
+      "causal": true
+    },
+    "predicted_candidate": "flash",
+    "predicted_latency_ms": 10.632685239480343,
+    "calibrated": true,
+    "all_candidates": [
+      {
+        "candidate": "dense",
+        "latency_ms": 270.8439676878827,
+        "feasible": true
+      },
+      {
+        "candidate": "flash",
+        "latency_ms": 10.632685239480343,
+        "feasible": true
+      },
+      {
+        "candidate": "sparse",
+        "latency_ms": 5.72309372270155,
+        "feasible": false
+      },
+      {
+        "candidate": "paged",
+        "latency_ms": 13.292606549350428,
+        "feasible": false
+      }
+    ]
+  },
+  {
+    "shape": {
+      "batch": 16,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 8192,
+      "kv_len": 8192,
+      "causal": true
+    },
+    "predicted_candidate": "flash",
+    "predicted_latency_ms": 85.02648191584275,
+    "calibrated": true,
+    "all_candidates": [
+      {
+        "candidate": "dense",
+        "latency_ms": 2166.471811503062,
+        "feasible": true
+      },
+      {
+        "candidate": "flash",
+        "latency_ms": 85.02648191584275,
+        "feasible": true
+      },
+      {
+        "candidate": "sparse",
+        "latency_ms": 45.724059781612404,
+        "feasible": false
+      },
+      {
+        "candidate": "paged",
+        "latency_ms": 106.28485239480342,
+        "feasible": false
+      }
+    ]
+  },
+  {
+    "shape": {
+      "batch": 16,
+      "num_heads": 32,
+      "head_dim": 64,
+      "q_len": 8192,
+      "kv_len": 8192,
+      "causal": true
+    },
+    "predicted_candidate": "flash",
+    "predicted_latency_ms": 340.09092766337096,
+    "calibrated": true,
+    "all_candidates": [
+      {
+        "candidate": "dense",
+        "latency_ms": 8665.767276012246,
+        "feasible": true
+      },
+      {
+        "candidate": "flash",
+        "latency_ms": 340.09092766337096,
+        "feasible": true
+      },
+      {
+        "candidate": "sparse",
+        "latency_ms": 182.8702291264496,
+        "feasible": false
+      },
+      {
+        "candidate": "paged",
+        "latency_ms": 425.11540957921375,
+        "feasible": false
+      }
+    ]
+  },
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 1,
+      "kv_len": 128,
+      "causal": false
+    },
+    "predicted_candidate": "flash",
+    "predicted_latency_ms": 0.007269174739922163,
+    "calibrated": true,
+    "all_candidates": [
+      {
+        "candidate": "dense",
+        "latency_ms": 0.6663466281566106,
+        "feasible": true
+      },
+      {
+        "candidate": "flash",
+        "latency_ms": 0.007269174739922163,
+        "feasible": true
+      },
+      {
+        "candidate": "sparse",
+        "latency_ms": 0.011241678199888805,
+        "feasible": false
+      },
+      {
+        "candidate": "paged",
+        "latency_ms": 0.01567353862823367,
+        "feasible": true
+      }
+    ]
+  },
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 1,
+      "kv_len": 2048,
+      "causal": false
+    },
+    "predicted_candidate": "paged",
+    "predicted_latency_ms": 0.03388434611822317,
+    "calibrated": true,
+    "all_candidates": [
+      {
+        "candidate": "dense",
+        "latency_ms": 0.7855430473302116,
+        "feasible": true
+      },
+      {
+        "candidate": "flash",
+        "latency_ms": 0.041042938310856696,
+        "feasible": true
+      },
+      {
+        "candidate": "sparse",
+        "latency_ms": 0.05948991187265243,
+        "feasible": false
+      },
+      {
+        "candidate": "paged",
+        "latency_ms": 0.03388434611822317,
+        "feasible": true
+      }
+    ]
+  },
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 1,
+      "kv_len": 8192,
+      "causal": false
+    },
+    "predicted_candidate": "paged",
+    "predicted_latency_ms": 0.09215893008618958,
+    "calibrated": true,
+    "all_candidates": [
+      {
+        "candidate": "dense",
+        "latency_ms": 1.1669715886857353,
+        "feasible": true
+      },
+      {
+        "candidate": "flash",
+        "latency_ms": 0.1491189817378472,
+        "feasible": true
+      },
+      {
+        "candidate": "sparse",
+        "latency_ms": 0.21388425962549604,
+        "feasible": false
+      },
+      {
+        "candidate": "paged",
+        "latency_ms": 0.09215893008618958,
+        "feasible": true
+      }
+    ]
+  },
+  {
+    "shape": {
+      "batch": 16,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 1,
+      "kv_len": 128,
+      "causal": false
+    },
+    "predicted_candidate": "paged",
+    "predicted_latency_ms": 0.03402661805173872,
+    "calibrated": true,
+    "all_candidates": [
+      {
+        "candidate": "dense",
+        "latency_ms": 0.7864460505057692,
+        "feasible": true
+      },
+      {
+        "candidate": "flash",
+        "latency_ms": 0.04130679583875463,
+        "feasible": true
+      },
+      {
+        "candidate": "sparse",
+        "latency_ms": 0.0598668511982209,
+        "feasible": false
+      },
+      {
+        "candidate": "paged",
+        "latency_ms": 0.03402661805173872,
+        "feasible": true
+      }
+    ]
+  },
+  {
+    "shape": {
+      "batch": 16,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 1,
+      "kv_len": 2048,
+      "causal": false
+    },
+    "predicted_candidate": "paged",
+    "predicted_latency_ms": 0.3253995378915708,
+    "calibrated": true,
+    "all_candidates": [
+      {
+        "candidate": "dense",
+        "latency_ms": 2.6935887572833868,
+        "feasible": true
+      },
+      {
+        "candidate": "flash",
+        "latency_ms": 0.5816870129737072,
+        "feasible": true
+      },
+      {
+        "candidate": "sparse",
+        "latency_ms": 0.8318385899624389,
+        "feasible": false
+      },
+      {
+        "candidate": "paged",
+        "latency_ms": 0.3253995378915708,
+        "feasible": true
+      }
+    ]
+  },
+  {
+    "shape": {
+      "batch": 16,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 1,
+      "kv_len": 8192,
+      "causal": false
+    },
+    "predicted_candidate": "paged",
+    "predicted_latency_ms": 1.2577928813790333,
+    "calibrated": true,
+    "all_candidates": [
+      {
+        "candidate": "dense",
+        "latency_ms": 8.796445418971764,
+        "feasible": true
+      },
+      {
+        "candidate": "flash",
+        "latency_ms": 2.310903707805555,
+        "feasible": true
+      },
+      {
+        "candidate": "sparse",
+        "latency_ms": 3.3021481540079365,
+        "feasible": false
+      },
+      {
+        "candidate": "paged",
+        "latency_ms": 1.2577928813790333,
+        "feasible": true
+      }
+    ]
+  },
+  {
+    "shape": {
+      "batch": 64,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 1,
+      "kv_len": 128,
+      "causal": false
+    },
+    "predicted_candidate": "paged",
+    "predicted_latency_ms": 0.09275647220695488,
+    "calibrated": true,
+    "all_candidates": [
+      {
+        "candidate": "dense",
+        "latency_ms": 1.170764202023077,
+        "feasible": true
+      },
+      {
+        "candidate": "flash",
+        "latency_ms": 0.15022718335501853,
+        "feasible": true
+      },
+      {
+        "candidate": "sparse",
+        "latency_ms": 0.2154674047928836,
+        "feasible": false
+      },
+      {
+        "candidate": "paged",
+        "latency_ms": 0.09275647220695488,
+        "feasible": true
+      }
+    ]
+  },
+  {
+    "shape": {
+      "batch": 64,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 1,
+      "kv_len": 2048,
+      "causal": false
+    },
+    "predicted_candidate": "paged",
+    "predicted_latency_ms": 1.2582481515662831,
+    "calibrated": true,
+    "all_candidates": [
+      {
+        "candidate": "dense",
+        "latency_ms": 8.799335029133548,
+        "feasible": true
+      },
+      {
+        "candidate": "flash",
+        "latency_ms": 2.3117480518948286,
+        "feasible": true
+      },
+      {
+        "candidate": "sparse",
+        "latency_ms": 3.3033543598497555,
+        "feasible": false
+      },
+      {
+        "candidate": "paged",
+        "latency_ms": 1.2582481515662831,
+        "feasible": true
+      }
+    ]
+  },
+  {
+    "shape": {
+      "batch": 64,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 1,
+      "kv_len": 8192,
+      "causal": false
+    },
+    "predicted_candidate": "paged",
+    "predicted_latency_ms": 4.987821525516133,
+    "calibrated": true,
+    "all_candidates": [
+      {
+        "candidate": "dense",
+        "latency_ms": 33.210761675887056,
+        "feasible": true
+      },
+      {
+        "candidate": "flash",
+        "latency_ms": 9.22861483122222,
+        "feasible": true
+      },
+      {
+        "candidate": "sparse",
+        "latency_ms": 13.184592616031745,
+        "feasible": false
+      },
+      {
+        "candidate": "paged",
+        "latency_ms": 4.987821525516133,
+        "feasible": true
+      }
+    ]
+  },
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 2048,
+      "kv_len": 2048,
+      "causal": true,
+      "sparse_density": 0.02,
+      "allow_approx": true
+    },
+    "predicted_candidate": "sparse",
+    "predicted_latency_ms": 0.031141350649926826,
+    "calibrated": true,
+    "all_candidates": [
+      {
+        "candidate": "dense",
+        "latency_ms": 8.63415768569058,
+        "feasible": true
+      },
+      {
+        "candidate": "flash",
+        "latency_ms": 0.33723677309433703,
+        "feasible": true
+      },
+      {
+        "candidate": "sparse",
+        "latency_ms": 0.031141350649926826,
+        "feasible": true
+      },
+      {
+        "candidate": "paged",
+        "latency_ms": 0.4232959663679212,
+        "feasible": false
+      }
+    ]
+  },
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 2048,
+      "kv_len": 2048,
+      "causal": true,
+      "sparse_density": 0.05,
+      "allow_approx": true
+    },
+    "predicted_candidate": "sparse",
+    "predicted_latency_ms": 0.03579255249668756,
+    "calibrated": true,
+    "all_candidates": [
+      {
+        "candidate": "dense",
+        "latency_ms": 8.63415768569058,
+        "feasible": true
+      },
+      {
+        "candidate": "flash",
+        "latency_ms": 0.33723677309433703,
+        "feasible": true
+      },
+      {
+        "candidate": "sparse",
+        "latency_ms": 0.03579255249668756,
+        "feasible": true
+      },
+      {
+        "candidate": "paged",
+        "latency_ms": 0.4232959663679212,
+        "feasible": false
+      }
+    ]
+  },
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 2048,
+      "kv_len": 2048,
+      "causal": true,
+      "sparse_density": 0.1,
+      "allow_approx": true
+    },
+    "predicted_candidate": "sparse",
+    "predicted_latency_ms": 0.043544555574622106,
+    "calibrated": true,
+    "all_candidates": [
+      {
+        "candidate": "dense",
+        "latency_ms": 8.63415768569058,
+        "feasible": true
+      },
+      {
+        "candidate": "flash",
+        "latency_ms": 0.33723677309433703,
+        "feasible": true
+      },
+      {
+        "candidate": "sparse",
+        "latency_ms": 0.043544555574622106,
+        "feasible": true
+      },
+      {
+        "candidate": "paged",
+        "latency_ms": 0.4232959663679212,
+        "feasible": false
+      }
+    ]
+  },
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 4096,
+      "kv_len": 4096,
+      "causal": true,
+      "sparse_density": 0.02,
+      "allow_approx": true
+    },
+    "predicted_candidate": "sparse",
+    "predicted_latency_ms": 0.05981127711385461,
+    "calibrated": true,
+    "all_candidates": [
+      {
+        "candidate": "dense",
+        "latency_ms": 34.065878388244336,
+        "feasible": true
+      },
+      {
+        "candidate": "flash",
+        "latency_ms": 1.3336228007491449,
+        "feasible": true
+      },
+      {
+        "candidate": "sparse",
+        "latency_ms": 0.05981127711385461,
+        "feasible": true
+      },
+      {
+        "candidate": "paged",
+        "latency_ms": 1.6687785009364309,
+        "feasible": false
+      }
+    ]
+  },
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 4096,
+      "kv_len": 4096,
+      "causal": true,
+      "sparse_density": 0.05,
+      "allow_approx": true
+    },
+    "predicted_candidate": "sparse",
+    "predicted_latency_ms": 0.07841154452837752,
+    "calibrated": true,
+    "all_candidates": [
+      {
+        "candidate": "dense",
+        "latency_ms": 34.065878388244336,
+        "feasible": true
+      },
+      {
+        "candidate": "flash",
+        "latency_ms": 1.3336228007491449,
+        "feasible": true
+      },
+      {
+        "candidate": "sparse",
+        "latency_ms": 0.07841154452837752,
+        "feasible": true
+      },
+      {
+        "candidate": "paged",
+        "latency_ms": 1.6687785009364309,
+        "feasible": false
+      }
+    ]
+  },
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 4096,
+      "kv_len": 4096,
+      "causal": true,
+      "sparse_density": 0.1,
+      "allow_approx": true
+    },
+    "predicted_candidate": "sparse",
+    "predicted_latency_ms": 0.10941199021924904,
+    "calibrated": true,
+    "all_candidates": [
+      {
+        "candidate": "dense",
+        "latency_ms": 34.065878388244336,
+        "feasible": true
+      },
+      {
+        "candidate": "flash",
+        "latency_ms": 1.3336228007491449,
+        "feasible": true
+      },
+      {
+        "candidate": "sparse",
+        "latency_ms": 0.10941199021924904,
+        "feasible": true
+      },
+      {
+        "candidate": "paged",
+        "latency_ms": 1.6687785009364309,
+        "feasible": false
+      }
+    ]
+  },
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 8192,
+      "kv_len": 8192,
+      "causal": true,
+      "sparse_density": 0.02,
+      "allow_approx": true
+    },
+    "predicted_candidate": "sparse",
+    "predicted_latency_ms": 0.1357468574837131,
+    "calibrated": true,
+    "all_candidates": [
+      {
+        "candidate": "dense",
+        "latency_ms": 135.44197884394134,
+        "feasible": true
+      },
+      {
+        "candidate": "flash",
+        "latency_ms": 5.318842619740171,
+        "feasible": true
+      },
+      {
+        "candidate": "sparse",
+        "latency_ms": 0.1357468574837131,
+        "feasible": true
+      },
+      {
+        "candidate": "paged",
+        "latency_ms": 6.650303274675214,
+        "feasible": false
+      }
+    ]
+  },
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 8192,
+      "kv_len": 8192,
+      "causal": true,
+      "sparse_density": 0.05,
+      "allow_approx": true
+    },
+    "predicted_candidate": "sparse",
+    "predicted_latency_ms": 0.21013884719676468,
+    "calibrated": true,
+    "all_candidates": [
+      {
+        "candidate": "dense",
+        "latency_ms": 135.44197884394134,
+        "feasible": true
+      },
+      {
+        "candidate": "flash",
+        "latency_ms": 5.318842619740171,
+        "feasible": true
+      },
+      {
+        "candidate": "sparse",
+        "latency_ms": 0.21013884719676468,
+        "feasible": true
+      },
+      {
+        "candidate": "paged",
+        "latency_ms": 6.650303274675214,
+        "feasible": false
+      }
+    ]
+  },
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 8192,
+      "kv_len": 8192,
+      "causal": true,
+      "sparse_density": 0.1,
+      "allow_approx": true
+    },
+    "predicted_candidate": "sparse",
+    "predicted_latency_ms": 0.3341254967185174,
+    "calibrated": true,
+    "all_candidates": [
+      {
+        "candidate": "dense",
+        "latency_ms": 135.44197884394134,
+        "feasible": true
+      },
+      {
+        "candidate": "flash",
+        "latency_ms": 5.318842619740171,
+        "feasible": true
+      },
+      {
+        "candidate": "sparse",
+        "latency_ms": 0.3341254967185174,
+        "feasible": true
+      },
+      {
+        "candidate": "paged",
+        "latency_ms": 6.650303274675214,
+        "feasible": false
+      }
+    ]
+  },
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 16384,
+      "kv_len": 16384,
+      "causal": true,
+      "sparse_density": 0.02,
+      "allow_approx": true
+    },
+    "predicted_candidate": "sparse",
+    "predicted_latency_ms": 0.36200092799144157,
+    "calibrated": true,
+    "all_candidates": [
+      {
+        "candidate": "dense",
+        "latency_ms": 540.2448159576936,
+        "feasible": true
+      },
+      {
+        "candidate": "flash",
+        "latency_ms": 21.259073312447878,
+        "feasible": true
+      },
+      {
+        "candidate": "sparse",
+        "latency_ms": 0.36200092799144157,
+        "feasible": true
+      },
+      {
+        "candidate": "paged",
+        "latency_ms": 26.575591640559843,
+        "feasible": false
+      }
+    ]
+  },
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 16384,
+      "kv_len": 16384,
+      "causal": true,
+      "sparse_density": 0.05,
+      "allow_approx": true
+    },
+    "predicted_candidate": "sparse",
+    "predicted_latency_ms": 0.6595507269535679,
+    "calibrated": true,
+    "all_candidates": [
+      {
+        "candidate": "dense",
+        "latency_ms": 540.2448159576936,
+        "feasible": true
+      },
+      {
+        "candidate": "flash",
+        "latency_ms": 21.259073312447878,
+        "feasible": true
+      },
+      {
+        "candidate": "sparse",
+        "latency_ms": 0.6595507269535679,
+        "feasible": true
+      },
+      {
+        "candidate": "paged",
+        "latency_ms": 26.575591640559843,
+        "feasible": false
+      }
+    ]
+  },
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 16384,
+      "kv_len": 16384,
+      "causal": true,
+      "sparse_density": 0.1,
+      "allow_approx": true
+    },
+    "predicted_candidate": "sparse",
+    "predicted_latency_ms": 1.1554670585571112,
+    "calibrated": true,
+    "all_candidates": [
+      {
+        "candidate": "dense",
+        "latency_ms": 540.2448159576936,
+        "feasible": true
+      },
+      {
+        "candidate": "flash",
+        "latency_ms": 21.259073312447878,
+        "feasible": true
+      },
+      {
+        "candidate": "sparse",
+        "latency_ms": 1.1554670585571112,
+        "feasible": true
+      },
+      {
+        "candidate": "paged",
+        "latency_ms": 26.575591640559843,
+        "feasible": false
+      }
+    ]
+  }
+]

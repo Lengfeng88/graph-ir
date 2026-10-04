@@ -1,0 +1,1025 @@
+[
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 1,
+      "head_dim": 64,
+      "q_len": 128,
+      "kv_len": 128,
+      "causal": true
+    },
+    "measured_ms": {
+      "dense": 0.06148424666420913,
+      "flash": null
+    },
+    "errors": {
+      "flash": "No available kernel. Aborting execution."
+    }
+  },
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 128,
+      "kv_len": 128,
+      "causal": true
+    },
+    "measured_ms": {
+      "dense": 0.08327507657500413,
+      "flash": null
+    },
+    "errors": {
+      "flash": "No available kernel. Aborting execution."
+    }
+  },
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 32,
+      "head_dim": 64,
+      "q_len": 128,
+      "kv_len": 128,
+      "causal": true
+    },
+    "measured_ms": {
+      "dense": 0.17218498579443317,
+      "flash": null
+    },
+    "errors": {
+      "flash": "No available kernel. Aborting execution."
+    }
+  },
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 1,
+      "head_dim": 64,
+      "q_len": 512,
+      "kv_len": 512,
+      "causal": true
+    },
+    "measured_ms": {
+      "dense": 0.0896643997170031,
+      "flash": null
+    },
+    "errors": {
+      "flash": "No available kernel. Aborting execution."
+    }
+  },
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 512,
+      "kv_len": 512,
+      "causal": true
+    },
+    "measured_ms": {
+      "dense": 0.5595598607732538,
+      "flash": null
+    },
+    "errors": {
+      "flash": "No available kernel. Aborting execution."
+    }
+  },
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 32,
+      "head_dim": 64,
+      "q_len": 512,
+      "kv_len": 512,
+      "causal": true
+    },
+    "measured_ms": {
+      "dense": 2.012618334062638,
+      "flash": null
+    },
+    "errors": {
+      "flash": "No available kernel. Aborting execution."
+    }
+  },
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 1,
+      "head_dim": 64,
+      "q_len": 2048,
+      "kv_len": 2048,
+      "causal": true
+    },
+    "measured_ms": {
+      "dense": 1.1739382857368106,
+      "flash": null
+    },
+    "errors": {
+      "flash": "No available kernel. Aborting execution."
+    }
+  },
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 2048,
+      "kv_len": 2048,
+      "causal": true
+    },
+    "measured_ms": {
+      "dense": 7.938757766376842,
+      "flash": null
+    },
+    "errors": {
+      "flash": "No available kernel. Aborting execution."
+    }
+  },
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 32,
+      "head_dim": 64,
+      "q_len": 2048,
+      "kv_len": 2048,
+      "causal": true
+    },
+    "measured_ms": {
+      "dense": 31.046101888020832,
+      "flash": null
+    },
+    "errors": {
+      "flash": "No available kernel. Aborting execution."
+    }
+  },
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 1,
+      "head_dim": 64,
+      "q_len": 8192,
+      "kv_len": 8192,
+      "causal": true
+    },
+    "measured_ms": {
+      "dense": 18.468160152435303,
+      "flash": null
+    },
+    "errors": {
+      "flash": "No available kernel. Aborting execution."
+    }
+  },
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 8192,
+      "kv_len": 8192,
+      "causal": true
+    },
+    "measured_ms": {
+      "dense": 127.8853759765625,
+      "flash": null
+    },
+    "errors": {
+      "flash": "No available kernel. Aborting execution."
+    }
+  },
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 32,
+      "head_dim": 64,
+      "q_len": 8192,
+      "kv_len": 8192,
+      "causal": true
+    },
+    "measured_ms": {
+      "dense": null,
+      "flash": null
+    },
+    "errors": {
+      "dense": "CUDA out of memory. Tried to allocate 8.00 GiB. GPU 0 has a total capacity of 14.56 GiB of which 5.82 GiB is free. Including non-PyTorch memory, this process has 8.74 GiB memory in use. Of the allocat",
+      "flash": "No available kernel. Aborting execution."
+    }
+  },
+  {
+    "shape": {
+      "batch": 4,
+      "num_heads": 1,
+      "head_dim": 64,
+      "q_len": 128,
+      "kv_len": 128,
+      "causal": true
+    },
+    "measured_ms": {
+      "dense": 0.07630811482667924,
+      "flash": null
+    },
+    "errors": {
+      "flash": "No available kernel. Aborting execution."
+    }
+  },
+  {
+    "shape": {
+      "batch": 4,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 128,
+      "kv_len": 128,
+      "causal": true
+    },
+    "measured_ms": {
+      "dense": 0.1954028380493964,
+      "flash": null
+    },
+    "errors": {
+      "flash": "No available kernel. Aborting execution."
+    }
+  },
+  {
+    "shape": {
+      "batch": 4,
+      "num_heads": 32,
+      "head_dim": 64,
+      "q_len": 128,
+      "kv_len": 128,
+      "causal": true
+    },
+    "measured_ms": {
+      "dense": 0.715620829249328,
+      "flash": null
+    },
+    "errors": {
+      "flash": "No available kernel. Aborting execution."
+    }
+  },
+  {
+    "shape": {
+      "batch": 4,
+      "num_heads": 1,
+      "head_dim": 64,
+      "q_len": 512,
+      "kv_len": 512,
+      "causal": true
+    },
+    "measured_ms": {
+      "dense": 0.29299003206766566,
+      "flash": null
+    },
+    "errors": {
+      "flash": "No available kernel. Aborting execution."
+    }
+  },
+  {
+    "shape": {
+      "batch": 4,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 512,
+      "kv_len": 512,
+      "causal": true
+    },
+    "measured_ms": {
+      "dense": 2.009352291783979,
+      "flash": null
+    },
+    "errors": {
+      "flash": "No available kernel. Aborting execution."
+    }
+  },
+  {
+    "shape": {
+      "batch": 4,
+      "num_heads": 32,
+      "head_dim": 64,
+      "q_len": 512,
+      "kv_len": 512,
+      "causal": true
+    },
+    "measured_ms": {
+      "dense": 7.879432721571489,
+      "flash": null
+    },
+    "errors": {
+      "flash": "No available kernel. Aborting execution."
+    }
+  },
+  {
+    "shape": {
+      "batch": 4,
+      "num_heads": 1,
+      "head_dim": 64,
+      "q_len": 2048,
+      "kv_len": 2048,
+      "causal": true
+    },
+    "measured_ms": {
+      "dense": 4.044144021140204,
+      "flash": null
+    },
+    "errors": {
+      "flash": "No available kernel. Aborting execution."
+    }
+  },
+  {
+    "shape": {
+      "batch": 4,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 2048,
+      "kv_len": 2048,
+      "causal": true
+    },
+    "measured_ms": {
+      "dense": 31.085589090983074,
+      "flash": null
+    },
+    "errors": {
+      "flash": "No available kernel. Aborting execution."
+    }
+  },
+  {
+    "shape": {
+      "batch": 4,
+      "num_heads": 32,
+      "head_dim": 64,
+      "q_len": 2048,
+      "kv_len": 2048,
+      "causal": true
+    },
+    "measured_ms": {
+      "dense": 123.11756896972656,
+      "flash": null
+    },
+    "errors": {
+      "flash": "No available kernel. Aborting execution."
+    }
+  },
+  {
+    "shape": {
+      "batch": 4,
+      "num_heads": 1,
+      "head_dim": 64,
+      "q_len": 8192,
+      "kv_len": 8192,
+      "causal": true
+    },
+    "measured_ms": {
+      "dense": 65.17759704589844,
+      "flash": null
+    },
+    "errors": {
+      "flash": "No available kernel. Aborting execution."
+    }
+  },
+  {
+    "shape": {
+      "batch": 4,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 8192,
+      "kv_len": 8192,
+      "causal": true
+    },
+    "measured_ms": {
+      "dense": null,
+      "flash": null
+    },
+    "errors": {
+      "dense": "CUDA out of memory. Tried to allocate 8.00 GiB. GPU 0 has a total capacity of 14.56 GiB of which 5.82 GiB is free. Including non-PyTorch memory, this process has 8.74 GiB memory in use. Of the allocat",
+      "flash": "No available kernel. Aborting execution."
+    }
+  },
+  {
+    "shape": {
+      "batch": 4,
+      "num_heads": 32,
+      "head_dim": 64,
+      "q_len": 8192,
+      "kv_len": 8192,
+      "causal": true
+    },
+    "measured_ms": {
+      "dense": null,
+      "flash": null
+    },
+    "errors": {
+      "dense": "CUDA out of memory. Tried to allocate 32.00 GiB. GPU 0 has a total capacity of 14.56 GiB of which 12.54 GiB is free. Including non-PyTorch memory, this process has 2.02 GiB memory in use. Of the alloc",
+      "flash": "No available kernel. Aborting execution."
+    }
+  },
+  {
+    "shape": {
+      "batch": 16,
+      "num_heads": 1,
+      "head_dim": 64,
+      "q_len": 128,
+      "kv_len": 128,
+      "causal": true
+    },
+    "measured_ms": {
+      "dense": 0.10569882327142884,
+      "flash": null
+    },
+    "errors": {
+      "flash": "No available kernel. Aborting execution."
+    }
+  },
+  {
+    "shape": {
+      "batch": 16,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 128,
+      "kv_len": 128,
+      "causal": true
+    },
+    "measured_ms": {
+      "dense": 0.7166864905717238,
+      "flash": null
+    },
+    "errors": {
+      "flash": "No available kernel. Aborting execution."
+    }
+  },
+  {
+    "shape": {
+      "batch": 16,
+      "num_heads": 32,
+      "head_dim": 64,
+      "q_len": 128,
+      "kv_len": 128,
+      "causal": true
+    },
+    "measured_ms": {
+      "dense": 2.7879001617431642,
+      "flash": null
+    },
+    "errors": {
+      "flash": "No available kernel. Aborting execution."
+    }
+  },
+  {
+    "shape": {
+      "batch": 16,
+      "num_heads": 1,
+      "head_dim": 64,
+      "q_len": 512,
+      "kv_len": 512,
+      "causal": true
+    },
+    "measured_ms": {
+      "dense": 1.0211440053853122,
+      "flash": null
+    },
+    "errors": {
+      "flash": "No available kernel. Aborting execution."
+    }
+  },
+  {
+    "shape": {
+      "batch": 16,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 512,
+      "kv_len": 512,
+      "causal": true
+    },
+    "measured_ms": {
+      "dense": 7.880258863622492,
+      "flash": null
+    },
+    "errors": {
+      "flash": "No available kernel. Aborting execution."
+    }
+  },
+  {
+    "shape": {
+      "batch": 16,
+      "num_heads": 32,
+      "head_dim": 64,
+      "q_len": 512,
+      "kv_len": 512,
+      "causal": true
+    },
+    "measured_ms": {
+      "dense": 31.27283223470052,
+      "flash": null
+    },
+    "errors": {
+      "flash": "No available kernel. Aborting execution."
+    }
+  },
+  {
+    "shape": {
+      "batch": 16,
+      "num_heads": 1,
+      "head_dim": 64,
+      "q_len": 2048,
+      "kv_len": 2048,
+      "causal": true
+    },
+    "measured_ms": {
+      "dense": 15.644089508056641,
+      "flash": null
+    },
+    "errors": {
+      "flash": "No available kernel. Aborting execution."
+    }
+  },
+  {
+    "shape": {
+      "batch": 16,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 2048,
+      "kv_len": 2048,
+      "causal": true
+    },
+    "measured_ms": {
+      "dense": 123.5650863647461,
+      "flash": null
+    },
+    "errors": {
+      "flash": "No available kernel. Aborting execution."
+    }
+  },
+  {
+    "shape": {
+      "batch": 16,
+      "num_heads": 32,
+      "head_dim": 64,
+      "q_len": 2048,
+      "kv_len": 2048,
+      "causal": true
+    },
+    "measured_ms": {
+      "dense": null,
+      "flash": null
+    },
+    "errors": {
+      "dense": "CUDA out of memory. Tried to allocate 8.00 GiB. GPU 0 has a total capacity of 14.56 GiB of which 5.02 GiB is free. Including non-PyTorch memory, this process has 9.54 GiB memory in use. Of the allocat",
+      "flash": "No available kernel. Aborting execution."
+    }
+  },
+  {
+    "shape": {
+      "batch": 16,
+      "num_heads": 1,
+      "head_dim": 64,
+      "q_len": 8192,
+      "kv_len": 8192,
+      "causal": true
+    },
+    "measured_ms": {
+      "dense": 263.3177490234375,
+      "flash": null
+    },
+    "errors": {
+      "flash": "No available kernel. Aborting execution."
+    }
+  },
+  {
+    "shape": {
+      "batch": 16,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 8192,
+      "kv_len": 8192,
+      "causal": true
+    },
+    "measured_ms": {
+      "dense": null,
+      "flash": null
+    },
+    "errors": {
+      "dense": "CUDA out of memory. Tried to allocate 32.00 GiB. GPU 0 has a total capacity of 14.56 GiB of which 12.54 GiB is free. Including non-PyTorch memory, this process has 2.02 GiB memory in use. Of the alloc",
+      "flash": "No available kernel. Aborting execution."
+    }
+  },
+  {
+    "shape": {
+      "batch": 16,
+      "num_heads": 32,
+      "head_dim": 64,
+      "q_len": 8192,
+      "kv_len": 8192,
+      "causal": true
+    },
+    "measured_ms": {
+      "dense": null,
+      "flash": null
+    },
+    "errors": {
+      "dense": "CUDA out of memory. Tried to allocate 128.00 GiB. GPU 0 has a total capacity of 14.56 GiB of which 7.66 GiB is free. Including non-PyTorch memory, this process has 6.89 GiB memory in use. Of the alloc",
+      "flash": "No available kernel. Aborting execution."
+    }
+  },
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 1,
+      "kv_len": 128,
+      "causal": false
+    },
+    "measured_ms": {
+      "dense": 0.04401577447711582,
+      "flash": null,
+      "paged": 0.010807717580567387
+    },
+    "errors": {
+      "flash": "No available kernel. Aborting execution."
+    }
+  },
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 1,
+      "kv_len": 2048,
+      "causal": false
+    },
+    "measured_ms": {
+      "dense": 0.1760088622570038,
+      "flash": null,
+      "paged": 0.03792884205713084
+    },
+    "errors": {
+      "flash": "No available kernel. Aborting execution."
+    }
+  },
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 1,
+      "kv_len": 8192,
+      "causal": false
+    },
+    "measured_ms": {
+      "dense": 0.566491077725704,
+      "flash": null,
+      "paged": 0.09244800016686723
+    },
+    "errors": {
+      "flash": "No available kernel. Aborting execution."
+    }
+  },
+  {
+    "shape": {
+      "batch": 16,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 1,
+      "kv_len": 128,
+      "causal": false
+    },
+    "measured_ms": {
+      "dense": 0.163506148244018,
+      "flash": null,
+      "paged": 0.034717948629687995
+    },
+    "errors": {
+      "flash": "No available kernel. Aborting execution."
+    }
+  },
+  {
+    "shape": {
+      "batch": 16,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 1,
+      "kv_len": 2048,
+      "causal": false
+    },
+    "measured_ms": {
+      "dense": 2.1302212435623695,
+      "flash": null,
+      "paged": 0.3475489526514023
+    },
+    "errors": {
+      "flash": "No available kernel. Aborting execution."
+    }
+  },
+  {
+    "shape": {
+      "batch": 16,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 1,
+      "kv_len": 8192,
+      "causal": false
+    },
+    "measured_ms": {
+      "dense": 8.331238269805908,
+      "flash": null,
+      "paged": 1.345465999096632
+    },
+    "errors": {
+      "flash": "No available kernel. Aborting execution."
+    }
+  },
+  {
+    "shape": {
+      "batch": 64,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 1,
+      "kv_len": 128,
+      "causal": false
+    },
+    "measured_ms": {
+      "dense": 0.5568483252914584,
+      "flash": null,
+      "paged": 0.10173631101459651
+    },
+    "errors": {
+      "flash": "No available kernel. Aborting execution."
+    }
+  },
+  {
+    "shape": {
+      "batch": 64,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 1,
+      "kv_len": 2048,
+      "causal": false
+    },
+    "measured_ms": {
+      "dense": 8.396806335449218,
+      "flash": null,
+      "paged": 1.298360232150916
+    },
+    "errors": {
+      "flash": "No available kernel. Aborting execution."
+    }
+  },
+  {
+    "shape": {
+      "batch": 64,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 1,
+      "kv_len": 8192,
+      "causal": false
+    },
+    "measured_ms": {
+      "dense": 33.16900825500488,
+      "flash": null,
+      "paged": 6.007082621256511
+    },
+    "errors": {
+      "flash": "No available kernel. Aborting execution."
+    }
+  },
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 2048,
+      "kv_len": 2048,
+      "causal": true,
+      "sparse_density": 0.02,
+      "allow_approx": true
+    },
+    "measured_ms": {
+      "dense": 7.926684856414795,
+      "flash": null,
+      "sparse": 0.0466563857373703
+    },
+    "errors": {
+      "flash": "No available kernel. Aborting execution."
+    }
+  },
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 2048,
+      "kv_len": 2048,
+      "causal": true,
+      "sparse_density": 0.05,
+      "allow_approx": true
+    },
+    "measured_ms": {
+      "dense": 7.936753359707919,
+      "flash": null,
+      "sparse": 0.04906276088785118
+    },
+    "errors": {
+      "flash": "No available kernel. Aborting execution."
+    }
+  },
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 2048,
+      "kv_len": 2048,
+      "causal": true,
+      "sparse_density": 0.1,
+      "allow_approx": true
+    },
+    "measured_ms": {
+      "dense": 7.943243590268222,
+      "flash": null,
+      "sparse": 0.054550986054917455
+    },
+    "errors": {
+      "flash": "No available kernel. Aborting execution."
+    }
+  },
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 4096,
+      "kv_len": 4096,
+      "causal": true,
+      "sparse_density": 0.02,
+      "allow_approx": true
+    },
+    "measured_ms": {
+      "dense": 30.546410878499348,
+      "flash": null,
+      "sparse": 0.0856412749575532
+    },
+    "errors": {
+      "flash": "No available kernel. Aborting execution."
+    }
+  },
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 4096,
+      "kv_len": 4096,
+      "causal": true,
+      "sparse_density": 0.05,
+      "allow_approx": true
+    },
+    "measured_ms": {
+      "dense": 30.54429880777995,
+      "flash": null,
+      "sparse": 0.09734446371811023
+    },
+    "errors": {
+      "flash": "No available kernel. Aborting execution."
+    }
+  },
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 4096,
+      "kv_len": 4096,
+      "causal": true,
+      "sparse_density": 0.1,
+      "allow_approx": true
+    },
+    "measured_ms": {
+      "dense": 30.648202896118164,
+      "flash": null,
+      "sparse": 0.11765647065990112
+    },
+    "errors": {
+      "flash": "No available kernel. Aborting execution."
+    }
+  },
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 8192,
+      "kv_len": 8192,
+      "causal": true,
+      "sparse_density": 0.02,
+      "allow_approx": true
+    },
+    "measured_ms": {
+      "dense": 127.40198516845703,
+      "flash": null,
+      "sparse": 0.19369058586083926
+    },
+    "errors": {
+      "flash": "No available kernel. Aborting execution."
+    }
+  },
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 8192,
+      "kv_len": 8192,
+      "causal": true,
+      "sparse_density": 0.05,
+      "allow_approx": true
+    },
+    "measured_ms": {
+      "dense": 127.19535827636719,
+      "flash": null,
+      "sparse": 0.23679288985237243
+    },
+    "errors": {
+      "flash": "No available kernel. Aborting execution."
+    }
+  },
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 8192,
+      "kv_len": 8192,
+      "causal": true,
+      "sparse_density": 0.1,
+      "allow_approx": true
+    },
+    "measured_ms": {
+      "dense": 127.88060760498047,
+      "flash": null,
+      "sparse": 0.342640813629506
+    },
+    "errors": {
+      "flash": "No available kernel. Aborting execution."
+    }
+  },
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 16384,
+      "kv_len": 16384,
+      "causal": true,
+      "sparse_density": 0.02,
+      "allow_approx": true
+    },
+    "measured_ms": {
+      "dense": null,
+      "flash": null,
+      "sparse": 0.439519429313285
+    },
+    "errors": {
+      "dense": "CUDA out of memory. Tried to allocate 8.00 GiB. GPU 0 has a total capacity of 14.56 GiB of which 5.24 GiB is free. Including non-PyTorch memory, this process has 9.32 GiB memory in use. Of the allocat",
+      "flash": "No available kernel. Aborting execution."
+    }
+  },
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 16384,
+      "kv_len": 16384,
+      "causal": true,
+      "sparse_density": 0.05,
+      "allow_approx": true
+    },
+    "measured_ms": {
+      "dense": null,
+      "flash": null,
+      "sparse": 0.7081113588809967
+    },
+    "errors": {
+      "dense": "CUDA out of memory. Tried to allocate 8.00 GiB. GPU 0 has a total capacity of 14.56 GiB of which 5.24 GiB is free. Including non-PyTorch memory, this process has 9.32 GiB memory in use. Of the allocat",
+      "flash": "No available kernel. Aborting execution."
+    }
+  },
+  {
+    "shape": {
+      "batch": 1,
+      "num_heads": 8,
+      "head_dim": 64,
+      "q_len": 16384,
+      "kv_len": 16384,
+      "causal": true,
+      "sparse_density": 0.1,
+      "allow_approx": true
+    },
+    "measured_ms": {
+      "dense": null,
+      "flash": null,
+      "sparse": 1.3479305360375382
+    },
+    "errors": {
+      "dense": "CUDA out of memory. Tried to allocate 8.00 GiB. GPU 0 has a total capacity of 14.56 GiB of which 5.24 GiB is free. Including non-PyTorch memory, this process has 9.32 GiB memory in use. Of the allocat",
+      "flash": "No available kernel. Aborting execution."
+    }
+  }
+]

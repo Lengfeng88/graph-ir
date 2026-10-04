@@ -17,20 +17,38 @@ for m in measured:
         continue
     true_best = min(valid, key=valid.get)
     pred_best = p["predicted_candidate"]
+    if pred_best not in valid:
+        # predicted candidate couldn't be measured on this hardware at all
+        # (e.g. flash on T4: PyTorch SDPA requires sm80+, T4 is sm75) --
+        # this is neither agreement nor disagreement, it's "unknown". Keep
+        # it out of the agreement denominator but record it separately.
+        rows.append({
+            "shape": m["shape"], "predicted": pred_best, "true_best": true_best,
+            "agree": None, "measured_ms": valid, "regret": None,
+            "unmeasurable": True,
+        })
+        continue
     agree = (true_best == pred_best)
-    # how much predicted choice costs vs true best, in real measured time
     pred_ms = valid.get(pred_best)
     regret = (pred_ms / valid[true_best] - 1) if pred_ms is not None else None
     rows.append({
         "shape": m["shape"], "predicted": pred_best, "true_best": true_best,
         "agree": agree, "measured_ms": valid, "regret": regret,
+        "unmeasurable": False,
     })
 
-n = len(rows)
-agree_n = sum(r["agree"] for r in rows)
-print(f"agreement: {agree_n}/{n} = {agree_n/n:.1%}")
+measurable = [r for r in rows if not r["unmeasurable"]]
+unmeasurable = [r for r in rows if r["unmeasurable"]]
+n = len(measurable)
+agree_n = sum(r["agree"] for r in measurable)
+print(f"agreement: {agree_n}/{n} = {agree_n/n:.1%}  (measurable shapes only)")
+if unmeasurable:
+    print(f"\n{len(unmeasurable)} shapes excluded (predicted candidate not measurable on this hardware):")
+    for r in unmeasurable:
+        print(f"  {r['shape']} predicted={r['predicted']} (unmeasurable) "
+              f"best-among-measured={r['true_best']} measured={r['measured_ms']}")
 
-mismatches = [r for r in rows if not r["agree"]]
+mismatches = [r for r in measurable if not r["agree"]]
 mismatches.sort(key=lambda r: -(r["regret"] or 0))
 print(f"\n{len(mismatches)} mismatches, worst first:")
 for r in mismatches:
